@@ -11,3 +11,6 @@ lihat status perubahan git status
 git add .
 git commit -m message
 git push origin main
+
+kalao edit mv nana file ke nama file baru
+kalau delete paka rm 
