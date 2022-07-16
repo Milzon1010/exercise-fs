@@ -1,1 +1,13 @@
 Belajar git dan gihub baru
+
+
+git clone (masukan link dari code respitory di web)
+kemudian ketik cd (masukan nama file)
+ketik code .
+
+di vscode ketik git remote -
+lihat status perubahan git status
+
+git add .
+git commit -m message
+git push origin main
