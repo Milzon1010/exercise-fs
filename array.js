@@ -1,10 +1,11 @@
-// var scores = [100,50,75,70,35];
+var scores = [100,50,75,70,35];
 
 // for (i = 0; i < scores.length ; i++) {
 //     console.log(scores [i]);
 // }
 
 // case 1 hitung jumlah total dari scores
+
 // var total = 0;
 // for (var i = 0; i < scores.length; i++) {
 //   total += scores[i];
@@ -13,10 +14,17 @@
 
 // study case 2 : hitung rata rata dari score diatas
 
-// for (var i = 0; i < scores.length ; i++) {
-//     var avg = (scores[i] / scores.length) * scores.length
+for (var i = 0; i < scores.length ; i++) {
+    var avg = (scores[i] / scores.length) * scores.length
+}
+console.log(avg)
+
+// var scores = [100,50,75,70,35];
+
+// var total = 0;
+// for (var i = 0; i < scores.length; i++) {
+//   total += scores[i];
 // }
-// console.log(avg)
 
 // var mean = total /scores.length;
 // console.log(mean);
@@ -95,21 +103,21 @@ let arloji = ['A', 'B', 'C', 'D','E']
 
  * */ 
 
-let watches = ["Swiss Army","Daniel Wellington","Dublot"]
-let koleksi = 0;
+// let watches = ["Swiss Army","Daniel Wellington","Dublot"]
+// let koleksi = 0;
 
 
-for (let i = 0; i < watches.length; i++) {
-    if (watches[i] !== ' ') {
-        koleksi = 
-    } else { 
-        console.log("saya punya " + koleksi)
-        koleksi = ''
-    }
-    if (i === watches.length - 1) {
-        console.log("saya punya " + koleksi);
-    }
-}
+// for (let i = 0; i < watches.length; i++) {
+//     if (watches[i] !== ' ') {
+//         koleksi += watches[i]
+//     } else { 
+//         console.log("saya punya " + koleksi)
+//         koleksi = ''
+//     }
+//     if (i === watches.length - 1) {
+//         console.log("saya punya " + koleksi);
+//     }
+// }
 
 /**
  * Latihan 2
