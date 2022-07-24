@@ -164,7 +164,11 @@ function square(angka) {
                     if (j === 0 || j === angka - 1) {
                         temp += "@"
                     } else {
-                        temp += ' '
+                        if(i === Math.floor(angka / 2) && j === 
+                        Math.floor((angka / 2))){
+                            temp += '$'
+                        } else
+                            temp += ' '
                     }
                 }
                 console.log(temp)
