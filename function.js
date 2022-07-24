@@ -103,4 +103,76 @@ function triangle(n) {
     }
 }
 
-triangle(5)
+// triangle(5)
+
+// Study Case 4
+// Buat kotak kosong
+
+function square(angka) {
+    if (angka % 2 !== 0) {
+        var temp = ""
+        for (var i = 0; i < angka; i++) {
+            if (i === 0 || i === angka - 1) {
+                for (var j = 0; j < angka; j++) {
+                    temp += '#'
+                }
+                console.log(temp)
+                temp = ""
+            } else {
+                for (var j = 0; j < angka; j++) {
+                    if (j === 0 || j === angka - 1) {
+                        temp += "#"
+                    } else {
+                        temp += ' '
+                    }
+                }
+                console.log(temp)
+                temp = ""
+            }
+        }
+    } else {
+        console.log("Harus Ganjil")
+    }
+}
+
+// square(5)
+// square(4)
+
+// Study Case 5
+// Buat kotak kosong, tetapi ada tengahnya
+/**
+var num = 5;
+#####
+@   @
+@ $ @
+@   @
+#####
+ */
+
+function square(angka) {
+    if (angka % 2 !== 0) {
+        var temp = ""
+        for (var i = 0; i < angka; i++) {
+            if (i === 0 || i === angka - 1) {
+                for (var j = 0; j < angka; j++) {
+                    temp += '#'
+                }
+                console.log(temp)
+                temp = ""
+            } else {
+                for (var j = 0; j < angka; j++) {
+                    if (j === 0 || j === angka - 1) {
+                        temp += "@"
+                    } else {
+                        temp += ' '
+                    }
+                }
+                console.log(temp)
+                temp = ""
+            }
+        }
+    } else {
+        console.log("Harus Ganjil")
+    }
+}
+square(5)
