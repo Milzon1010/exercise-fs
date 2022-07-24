@@ -67,6 +67,40 @@ function checkPrime(x) {
     }
 }
 
-checkPrime(2);
-checkPrime(13);
-checkPrime(122);
+// checkPrime(2);
+// checkPrime(13);
+// checkPrime(122);
+
+// Study Case 3
+// BUat segitiga '#' dan 'X'
+
+function triangle(n) {
+    var temp = ""
+    for (var i = 0; i < n; i++) {
+        // if (i % 2 === 0) {
+        //     for (var j = 0; j <= i; j++) {
+        //         temp += "#"
+        //     }
+        //     console.log(temp)
+        //     temp = ""
+        // } else {
+        //     for (var k = 0; k <= i; k++) {
+        //         temp += "X"
+        //     }
+        //     console.log(temp)
+        //     temp = ""
+        // }
+        for (var j = 0; j <= i; j++) {
+            if (j % 2 === 0) {
+                temp += '#'
+            } else {
+                temp += 'X'
+            }
+        }
+        console.log(temp)
+        temp = ""
+
+    }
+}
+
+triangle(5)
